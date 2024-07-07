@@ -15,9 +15,11 @@ exit $?
 
 # --- The actual settings ---
 with_portno=4711
+with_udp_port=4246
 enable_compat_mode=yes
 enable_debug=yes
 enable_erq=no
+enable_udp_send=yes
 enable_access_control=no
 enable_strict_euids=yes
 enable_filename_spaces=no
@@ -69,4 +71,3 @@ enable_use_xml=xml2
 enable_use_json=yes
 enable_use_sqlite=yes
 with_wizlist_file=WIZLIST
-
