@@ -14,11 +14,11 @@ exec ./configure --prefix=${MUDHOME}/ --libdir=${MUDHOME}/mudlib --bindir=${MUDH
 exit $?
 
 # --- The actual settings ---
+enable_erq=xerq
 with_portno=4711
 with_udp_port=4246
 enable_compat_mode=yes
 enable_debug=yes
-enable_erq=no
 enable_udp_send=yes
 enable_access_control=no
 enable_strict_euids=yes
@@ -26,7 +26,6 @@ enable_filename_spaces=no
 enable_use_deprecated=yes
 enable_use_set_light=yes
 enable_use_parse_command=no
-enable_erq=no
 enable_use_pcre=no
 enable_synchronous_heart_beat=yes
 with_alarm_time=1
