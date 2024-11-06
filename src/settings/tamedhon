@@ -17,7 +17,7 @@ exit $?
 enable_erq=xerq
 with_portno=4711
 with_udp_port=4246
-enable_compat_mode=yes
+enable_compat_mode=no
 enable_debug=yes
 enable_udp_send=yes
 enable_access_control=no
